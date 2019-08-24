@@ -1,0 +1,11 @@
+obj/
+packages/
+bin/
+.vs/
+.hg
+.hgignore
+node_modules/
+.idea/
+reports/
+sonarqube.bat
+.scannerwork/

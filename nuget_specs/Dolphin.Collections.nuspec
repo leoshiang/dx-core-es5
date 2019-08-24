@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Dolphin.Collections</id>
+        <version>1.0.2</version>
+        <authors>Leo Shiang</authors>
+        <owners>Leo Shiang</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Dolphin.Containers 提供Bits, Collection, Map, Stack。</description>
+        <language>zh-TW</language>
+        <dependencies>
+            <dependency id="Dolphin.Core" version="1.1.5" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="..\Dist\dolphin-js5-collections.min.js" target="Content\Scripts\dolphin-js5-collections.min.js" />
+        <file src="..\Dist\dolphin-js5-collections.min.js.map" target="Content\Scripts\dolphin-js5-collections.min.js.map" />
+    </files>
+</package>

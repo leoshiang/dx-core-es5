@@ -1,0 +1,54 @@
+﻿[
+  {
+    "outputFileName": "dist/dolphin-js5-core.js",
+    "inputFiles": [
+      "source/core/Namespace.js",
+      "source/core/Dolphin.js",
+      "source/core/Polyfill.js",
+      "source/core/Exceptions.js",
+      "source/core/Type.js",
+      "source/core/Assert.js",
+      "source/core/Observable.js",
+      "source/core/StrUtils.js",
+      "source/core/Log.js",
+      "source/core/DataBinding.js",
+      "source/core/AutoMapper.js"
+    ],
+    "sourceMap": true
+  },
+  {
+    "outputFileName": "dist/dolphin-js5-diagnostics.js",
+    "inputFiles": [
+      "source/Diagnostics/Tracer.js"
+    ],
+    "sourceMap": true
+  },
+  {
+    "outputFileName": "dist/dolphin-js5-collections.js",
+    "inputFiles": [
+      "source/collections/Bits.js",
+      "source/collections/Collection.js",
+      "source/collections/Map.js",
+      "source/collections/Strings.js",
+      "source/collections/Stack.js"
+    ],
+    "sourceMap": true
+  },
+  {
+    "outputFileName": "dist/dolphin-js5-html.js",
+    "inputFiles": [
+      "source/html/html.js",
+      "source/html/Element.js",
+      "source/html/Tags.js"
+    ],
+    "sourceMap": true
+  },
+  {
+    "outputFileName": "dist/dolphin-js5-datetime.js",
+    "inputFiles": [
+      "source/datetime/TimeUnit.js",
+      "source/datetime/Period.js"
+    ],
+    "sourceMap": true
+  }
+]

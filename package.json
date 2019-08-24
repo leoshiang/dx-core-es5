@@ -1,0 +1,28 @@
+{
+  "name": "dolphin-es5",
+  "version": "0.1.0",
+  "license": "MIT",
+  "devDependencies": {
+    "karma": "^4.0.0",
+    "karma-coverage": "^1.1.2",
+    "karma-fixture": "^0.2.6",
+    "karma-html2js-preprocessor": "^1.1.0",
+    "karma-jasmine": "^2.0.1",
+    "karma-json-fixtures-preprocessor": "^0.0.6",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-qunit": "^2.1.0",
+    "karma-requirejs": "^1.1.0",
+    "karma-sonarqube-reporter": "^1.2.3",
+    "qunit": "^2.8.0",
+    "run-script-os": "^1.0.5",
+    "standard": "^12.0.1"
+  },
+  "scripts": {
+    "build": "run-script-os",
+    "build:win32": "call build.bat",
+    "build:darwin": "sh ./build.sh",
+    "test": "karma start",
+    "sonarqube": "run-script-os",
+    "sonarqube:win32": "sonarqube-win32.bat"
+  }
+}

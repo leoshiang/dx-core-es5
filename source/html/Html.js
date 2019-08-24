@@ -1,0 +1,2 @@
+/* global Dolphin */
+Dolphin.Html = {}

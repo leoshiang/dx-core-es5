@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Dolphin.Core</id>
+        <version>1.1.5</version>
+        <authors>Leo Shiang</authors>
+        <owners>Leo Shiang</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Dolphin 是一個 JavaScript 程式庫，包含命名空間、物件管理、型別處理、自訂例外、字串處理、HTML...。Dolphin.Core 是 Dolphin 程式庫的基礎，其他的 Dolphin 套件都會參考 Dolphin.Core。</description>
+        <language>zh-TW</language>
+    </metadata>
+    <files>
+        <file src="..\Dist\dolphin-js5-core.min.js" target="Content\Scripts\dolphin-js5-core.min.js" />
+        <file src="..\Dist\dolphin-js5-core.min.js.map" target="Content\Scripts\dolphin-js5-core.min.js.map" />
+    </files>
+</package>
