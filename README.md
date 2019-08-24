@@ -1,4 +1,4 @@
-[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) 
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=leoshiang_Dolphin.ES5&metric=alert_status)](https://sonarcloud.io/dashboard?id=leoshiang_Dolphin.ES5)
 
 # Dolphin.ES5
 
