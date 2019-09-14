@@ -19,7 +19,6 @@ Namespace.prototype = {
     }
 
     var node = this
-
     var invokeCallback = function (name) {
       node = callback(node, name)
     }

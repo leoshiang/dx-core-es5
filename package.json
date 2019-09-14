@@ -23,6 +23,7 @@
     "build:darwin": "sh ./build.sh",
     "test": "karma start",
     "sonarqube": "run-script-os",
-    "sonarqube:win32": "sonarqube-win32.bat"
+    "sonarqube:win32": "sonarqube.bat",
+    "sonarqube:darwin": "sh ./sonarqube.sh"
   }
 }
