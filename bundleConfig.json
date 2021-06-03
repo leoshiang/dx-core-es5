@@ -1,53 +1,53 @@
 ﻿[
   {
-    "outputFileName": "dist/dolphin-js5-core.js",
+    "outputFileName": "Dist/dolphin-js5-core.js",
     "inputFiles": [
-      "source/core/Namespace.js",
-      "source/core/Dolphin.js",
-      "source/core/Polyfill.js",
-      "source/core/Exceptions.js",
-      "source/core/Type.js",
-      "source/core/Assert.js",
-      "source/core/Observable.js",
-      "source/core/StrUtils.js",
-      "source/core/Log.js",
-      "source/core/DataBinding.js",
-      "source/core/AutoMapper.js"
+      "Source/Core/Namespace.js",
+      "Source/Core/Dolphin.js",
+      "Source/Core/Polyfill.js",
+      "Source/Core/Exceptions.js",
+      "Source/Core/Type.js",
+      "Source/Core/Assert.js",
+      "Source/Core/Observable.js",
+      "Source/Core/StrUtils.js",
+      "Source/Core/Log.js",
+      "Source/Core/DataBinding.js",
+      "Source/Core/AutoMapper.js"
     ],
     "sourceMap": true
   },
   {
-    "outputFileName": "dist/dolphin-js5-diagnostics.js",
+    "outputFileName": "Dist/dolphin-js5-diagnostics.js",
     "inputFiles": [
-      "source/Diagnostics/Tracer.js"
+      "Source/Diagnostics/Tracer.js"
     ],
     "sourceMap": true
   },
   {
-    "outputFileName": "dist/dolphin-js5-collections.js",
+    "outputFileName": "Dist/dolphin-js5-collections.js",
     "inputFiles": [
-      "source/collections/Bits.js",
-      "source/collections/Collection.js",
-      "source/collections/Map.js",
-      "source/collections/Strings.js",
-      "source/collections/Stack.js"
+      "Source/Collections/Bits.js",
+      "Source/Collections/Collection.js",
+      "Source/Collections/Map.js",
+      "Source/Collections/Strings.js",
+      "Source/Collections/Stack.js"
     ],
     "sourceMap": true
   },
   {
-    "outputFileName": "dist/dolphin-js5-html.js",
+    "outputFileName": "Dist/dolphin-js5-html.js",
     "inputFiles": [
-      "source/html/html.js",
-      "source/html/Element.js",
-      "source/html/Tags.js"
+      "Source/Html/html.js",
+      "Source/Html/Element.js",
+      "Source/Html/Tags.js"
     ],
     "sourceMap": true
   },
   {
-    "outputFileName": "dist/dolphin-js5-datetime.js",
+    "outputFileName": "Dist/dolphin-js5-datetime.js",
     "inputFiles": [
-      "source/datetime/TimeUnit.js",
-      "source/datetime/Period.js"
+      "Source/DateTime/TimeUnit.js",
+      "Source/DateTime/Period.js"
     ],
     "sourceMap": true
   }

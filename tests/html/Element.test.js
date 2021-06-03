@@ -260,7 +260,7 @@ QUnit.module('Dolphin.Html.Element', function () {
       assert.equal(e.innerHTML(), '')
     })
 
-    QUnit.test('子物件中有 html 元素，應回傳所有子物件 outerHTML 的字串集合', function (assert) {
+    QUnit.test('子物件中有 Html 元素，應回傳所有子物件 outerHTML 的字串集合', function (assert) {
       var c = new Element().attr('id', 'test-id').attr('name', 'test-name')
       c.tag = 'AA'
       var e = new Element('a', 'b', 'c', c)
