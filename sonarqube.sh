@@ -1,0 +1,2 @@
+karma start
+/Users/leoshiang/Apps/sonar-scanner-4.0.0.1744-macosx/bin/sonar-scanner -Dsonar.javascript.lcov.reportPaths="reports/coverage-lcov/PhantomJS 2.1.1 (Mac OS X 0.0.0)/lcov.info" -Dsonar.scm.provider=git -D"sonar.projectKey=Dolphin.ES5" -D"sonar.sources=." -D"sonar.host.url=http://localhost:9000" -D"sonar.login=7d6d7f7887d45bfc558aa823e65cd625af02fe56"
