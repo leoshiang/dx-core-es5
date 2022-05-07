@@ -1,11 +1,11 @@
 @ECHO OFF
 ECHO checking styles
-call standard "source/**/*.js" --fix
+call standard "Source/**/*.js" --fix
 
 ECHO building sources...
-tools\JavaScriptBundler.exe bundleConfig.json
+Tools\JavaScriptBundler.exe bundleConfig.json
 ECHO done...
 
 ECHO building packages...
-for /r %%x in (*.nuspec) do tools\nuget.exe pack "%%x" -OutputDirectory nuget_output\
+for /r %%x in (*.nuspec) do Tools\nuget.exe pack "%%x" -OutputDirectory nuget_output\
 ECHO done...

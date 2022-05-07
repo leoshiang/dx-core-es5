@@ -1,12 +1,12 @@
 ECHO checking styles
-standard "source/**/*.js" --fix
+standard "Source/**/*.js" --fix
 
 ECHO building sources...
-cd tools
+cd Tools
 mono JavaScriptBundler.exe ../bundleConfig.json
 cd ../
 ECHO done...
 
 ECHO building packages...
-for f in nuget_specs/*.nuspec; do mono tools/nuget.exe pack $f -OutputDirectory nuget_output; done
+for f in nuget_specs/*.nuspec; do mono Tools/nuget.exe pack $f -OutputDirectory nuget_output; done
 ECHO done...

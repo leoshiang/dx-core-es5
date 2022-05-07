@@ -2,8 +2,8 @@ QUnit.module('Dolphin.DataBinding', function () {
   var Type = Dolphin.Type
   var DataBinding = Dolphin.DataBinding;
   if (window.fixture) {
-    fixture.setBase('tests/fixtures')
-    fixture.load('DataBinding.fixture.html')
+    fixture.setBase('Tests/Fixtures')
+    fixture.load('DataBinding.fixture.Html')
   }
 
   QUnit.test('改變物件屬性，HTML 元素的值會改變', function (assert) {
